@@ -104,9 +104,14 @@ const Header = () => {
           <div className="flex items-center">
             <a 
               href="/" 
-              className="text-2xl font-bold text-secondary hover:text-primary transition-all duration-300 hover:scale-105 transform"
+              className="flex items-center gap-3 hover:opacity-90 transition-all duration-300 hover:scale-105 transform"
             >
-              <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
+              <img 
+                src="/kavita logo.png" 
+                alt="Kavita Cooler Logo" 
+                className="h-10 w-10 object-contain"
+              />
+              <span className="text-2xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
                 Kavita Cooler
               </span>
             </a>
